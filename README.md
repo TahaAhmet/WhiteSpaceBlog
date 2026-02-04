@@ -1,4 +1,4 @@
-# 📝 White Space — Writing & Notes
+# 📝 White Space 
 White Space — Writing & Notes is a minimalist blog application built for writing, editing, and managing personal posts in a clean and distraction-free environment.
 The project focuses on simplicity, readability, and core CRUD functionality without unnecessary complexity.
 It’s designed as a learning-focused project that demonstrates server-side rendering, routing, and basic content management using Express and EJS.
@@ -74,22 +74,22 @@ This project was built to:
 
 1. Clone the repository:
 
-  git clone https://github.com/TahaAhmet/WhiteSpaceBlog.git
+    git clone https://github.com/TahaAhmet/WhiteSpaceBlog.git
 
 2. Navigate into the project directory:
 
-  cd WhiteSpace
+    cd WhiteSpace
 
 3. Install dependencies:
 
-  npm install
+    npm install
 
 4. Start the server:
 
-  node index.js
+    node index.js
 
 5. Open your browser and visit:
 
-  http://localhost:3000
+    http://localhost:3000
 
 Start writing in your own White Space ✨
