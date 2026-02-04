@@ -1,0 +1,200 @@
+/* =====================
+   RESET & BASE
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+
+/* =====================
+   HEADER
+===================== */
+header {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-inner h1 a {
+  text-decoration: none;
+  color: #111;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.write-btn {
+  color: rgb(154, 19, 154);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* =====================
+   HOME
+===================== */
+.home-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.empty {
+  color: #888;
+  font-size: 15px;
+}
+
+/* =====================
+   POSTS
+===================== */
+.post {
+  padding: 28px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.post h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post h2 a {
+  text-decoration: none;
+  color: #111;
+}
+
+.post .content {
+  color: #444;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* =====================
+   BUTTON SYSTEM
+===================== */
+.post-actions {
+  margin-top: 14px;
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+/* Edit */
+.btn-muted {
+  color: #555;
+  border-color: #ddd;
+}
+
+.btn-muted:hover {
+  background: #f3f3f3;
+}
+
+/* Delete */
+.btn-danger {
+  color: #b42318;
+  border-color: #f4c7c3;
+  height: 28px;
+}
+
+.btn-danger:hover {
+  background: #fdecea;
+}
+
+/* =====================
+   WRITE / EDIT PAGE
+===================== */
+.write-container {
+  max-width: 720px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.write-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.write-form input,
+.write-form textarea {
+  font-size: 18px;
+  padding: 14px;
+  margin-bottom: 22px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.write-form textarea {
+  min-height: 280px;
+  resize: vertical;
+}
+
+.write-form button {
+  align-self: flex-end;
+  padding: 10px 22px;
+  border-radius: 20px;
+  border: none;
+  background: #1a8917;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.write-form button:hover {
+  background: #157014;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* =====================
+   SINGLE POST
+===================== */
+.single-post {
+  max-width: 720px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.post-title {
+  font-size: 38px;
+  line-height: 1.25;
+  margin-bottom: 14px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 32px;
+}
+
+.post-content p {
+  font-size: 19px;
+  line-height: 1.75;
+  color: #333;
+}
