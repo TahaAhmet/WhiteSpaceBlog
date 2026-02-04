@@ -1,5 +1,5 @@
 # 📝 White Space 
-White Space — Writing & Notes is a minimalist blog application built for writing, editing, and managing personal posts in a clean and distraction-free environment.
+White Space is a minimalist blog application built for writing, editing, and managing personal posts in a clean and distraction-free environment.
 The project focuses on simplicity, readability, and core CRUD functionality without unnecessary complexity.
 It’s designed as a learning-focused project that demonstrates server-side rendering, routing, and basic content management using Express and EJS.
 
